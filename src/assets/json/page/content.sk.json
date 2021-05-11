@@ -1,0 +1,23 @@
+{
+  "application": {
+    "name": "Slovíčka"
+  },
+  "content": {
+    "country": "sk",
+    "flag": "slovakia.png",
+    "text_content": {
+      "introduction": "Zvoľte si krajinu pôvodu, jazyk, v ktorom sa chcete zdokonaliť a lekciu, z ktorej si chcete precvičiť slovíčka",
+      "notice_german": "Aplikácia nerozlišuje oe, ae, ue. Namiesto ö, ä, ü možno použiť o, a, u.",
+      "language": "jazyk",
+      "confirm_button": "Preložiť",
+      "lesson": "lekcia",
+      "modal": {
+        "right": "je správne",
+        "wrong": "je nesprávne",
+        "right_answer": "Správna odpoveď je"
+      }
+    },
+    "languages": [{"lang": "anglický", "shortcut": "en"}, {"lang": "nemecký", "shortcut": "de"}],
+    "countries": ["de", "en", "sk"]
+  }
+}

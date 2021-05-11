@@ -1,0 +1,28 @@
+<section *ngIf="pageContent" class="body-container">
+  <main *ngIf="words" class="form-wrapper">
+    <p>{{ pageContent.content.text_content.introduction }}</p>
+    <p *ngIf="isGermanSelected" [ngStyle]="nativeLang == 'en' ? {'padding-top': '0.5em'} : 
+	screenSize < 950 ? {'padding': '1em 1.7em 2.5em'} : {'padding': '0'}">
+	{{ pageContent.content.text_content.notice_german }}
+	</p>
+    <div class="form">
+      <form (ngSubmit)="onTranslate(translationForm)" #translationForm="ngForm" 
+	  [ngClass]="isGermanSelected && screenSize < 500 ? 'form-info-de' : 'form-no-info-de'">
+        <input type="text" placeholder="{{ filteredWords[randomInt][nativeLang] }}" ngModel name="translation" required 
+		autocomplete="off" [ngClass]="isGermanSelected && screenSize < 500 ? 'input-info-de' : 'input-no-info-de'"
+		[ngStyle]="nativeLang == 'de' ? {'background-color': '#ffeb3b'} : {'background-color': '#f0f8ff'}">
+        <button type="submit" [disabled]="translationForm.invalid" 
+		[ngClass]="isGermanSelected && screenSize < 500 ? 'btn-info-de' : 'btn-no-info-de'">
+		{{ pageContent.content.text_content.confirm_button }}
+		</button>
+      </form>
+    </div>
+  </main>
+  <app-modal *ngIf="isModalOpened" [foreignWord]="filteredWords[randomInt][foreignLang]" 
+  [isCorrectAnswer]="isCorrectAnswer" [userAnswer]="answer" [pageContent]="pageContent" 
+  [modalOpened]="isModalOpened" (newWordRequired)="onNewWordRequired()"></app-modal>
+  <footer class="contribution" [ngStyle]="loadFooterStyles()">Flag icons made by 
+    <a href="https://www.freepik.com" title="Freepik" [ngStyle]="loadAnchorStyles()">Freepik</a> from 
+    <a href="https://www.flaticon.com/" title="Flaticon" [ngStyle]="loadAnchorStyles()">www.flaticon.com</a>
+  </footer>
+</section>

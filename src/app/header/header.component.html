@@ -1,0 +1,26 @@
+<header *ngIf="pageContent">
+  <section class="page-title">
+    <img src="{{ 'assets/images/flags/' + pageContent.content.flag }}" alt="Country flag" class="flag">
+    <div class="heading">
+      <h1 [ngStyle]="loadHeadingStyles()">{{ appName }}</h1>
+    </div>
+  </section>
+  <select class="country" (change)="onCountryChange(country)" #country [ngModel]="pageContent.content.country" 
+  [ngStyle]="loadSelectCountryStyles()">
+    <option *ngFor="let country of pageContent.content.countries" value="{{ country }}">{{ country | uppercase }}</option>
+  </select>
+  <div class="language">
+    <select (change)="onLanguageSelection(langSelected.value)" #langSelected>
+      <option *ngFor="let lang of pageContent.content.languages; let i = index" value="{{ lang.shortcut }}" [selected]="i == 0">
+	  {{ lang.lang }}
+	  </option>
+    </select>
+  </div>
+  <div class="level">
+    <select (change)="onLevelChange(+level.value)" #level>
+      <option *ngFor="let level of [1, 2, 3]; let i = index" value="{{ level }}" [selected]="i == 0">
+      {{ level + '. ' + pageContent.content.text_content.lesson }}
+      </option>
+    </select>
+  </div>
+</header>

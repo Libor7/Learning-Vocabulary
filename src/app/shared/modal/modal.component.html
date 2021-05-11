@@ -1,0 +1,13 @@
+<div [class.backdrop]="modalOpened">
+  <div [ngClass]="loadClasses()" (click)="loadNewWord()">
+    <div class="modal-text">
+      <p>{{ userAnswer }} {{ isCorrectAnswer ? pageContent.content.text_content.modal.right : 
+	  pageContent.content.text_content.modal.wrong }}</p>
+      <p *ngIf="!isCorrectAnswer">{{ pageContent.content.text_content.modal.right_answer + ' ' + foreignWord }}</p>
+    </div>
+    <div class="modal-icon">
+      <i class="material-icons" *ngIf="isCorrectAnswer">check</i>
+      <i class="material-icons" *ngIf="!isCorrectAnswer">close</i>
+    </div>
+  </div>
+</div>

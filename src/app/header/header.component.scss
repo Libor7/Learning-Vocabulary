@@ -1,0 +1,303 @@
+header {
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.page-title {
+  order: 1;
+  width: 80%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.flag {
+  width: 3em;
+  height: 3em;
+  padding: 0.5em;
+}
+
+.heading {
+  flex-grow: 1;
+}
+
+h1 {
+  flex-grow: 1;
+  font-family: italianno;
+  font-size: 2.5em;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.country {
+  order: 2;
+  border: none;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-left: 0.5em;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.language {
+  order: 3;
+  width: 60%;
+  padding-top: 1em;
+}
+
+.language select {
+  width: 100%;
+  background-color: #fff;
+  color: #d81b27;
+  border: none;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+
+.level {
+  order: 4;
+  width: 40%;
+  padding-top: 1em;
+}
+
+.level select {
+  width: 100%;
+  background-color: #fff;
+  color: #d81b27;
+  border: none;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 1.2em;
+}
+
+
+@media screen and (min-width: 260px) 
+{
+  .country {
+    padding-left: 0.7em;
+  }
+
+  .language select {
+    padding-left: 2em;
+  }
+}
+
+@media screen and (min-width: 280px) 
+{
+  .country {
+    padding-left: 0.8em;
+  }
+
+  h1 {
+    margin-right: 1em;
+  }
+}
+
+@media screen and (min-width: 330px) 
+{
+  .country {
+    padding-left: 1em;
+  }
+
+  .language select {
+    padding-left: 3em;
+  }
+}
+
+@media screen and (min-width: 370px) 
+{
+  .country {
+    padding-left: 1.2em;
+  }
+}
+
+@media screen and (min-width: 420px) 
+{
+  .country {
+    padding-left: 1.5em;
+  }
+
+  .language select {
+    padding-left: 4em;
+  }
+}
+
+@media screen and (min-width: 460px) 
+{
+  .country {
+    padding-left: 1.8em;
+  }
+}
+
+@media screen and (min-width: 500px) and (min-height: 750px) 
+{
+  header {
+    height: 10%;
+  }
+
+  .page-title {
+    width: 45%;
+    height: unset;
+  }
+
+  .country {
+    order: 4;
+    width: 15%;
+    padding-left: 1em;
+  }
+
+  .language {
+    order: 2;
+    width: 20%;
+	padding-top: 0;
+    position: relative;
+  }
+
+  .language select {
+    padding-left: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .level {
+    order: 3;
+    width: 20%;
+    padding: 0;
+    position: relative;
+  }
+
+  .level select {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (min-width: 500px) and (max-height: 749px) 
+{
+  header {
+    flex-wrap: nowrap;
+    height: 15%;
+  }
+
+  .page-title {
+    width: 45%;
+  }
+
+  .country {
+    order: 4;
+    width: 15%;
+    padding-left: 1em;
+  }
+
+  .language {
+    order: 2;
+    width: 25%;
+	padding-top: 0;
+    position: relative;
+  }
+
+  .language select {
+    padding-left: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .level {
+    order: 3;
+    width: 20%;
+    padding: 0;
+    position: relative;
+  }
+
+  .level select {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (min-width: 540px) 
+{
+  .country {
+    padding-left: 1.5em;
+  }
+}
+
+@media screen and (min-width: 650px) 
+{
+  .country {
+    padding-left: 1.8em;
+  }
+}
+
+@media screen and (min-width: 750px) 
+{
+  .country {
+    padding-left: 1.3em;
+    width: 10%;
+  }
+  
+  .page-title {
+    width: 60%;
+  }
+
+  .language {
+    width: 15%;
+  }
+
+  .level {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 850px) 
+{
+  .country {
+    padding-left: 1.7em;
+  }
+}
+
+@media screen and (min-width: 1150px) 
+{
+  h1 {
+    margin-right: 10em;
+    font-size: 3.5em;
+  }
+
+  .country {
+    padding-left: 1em;
+    width: 5%;
+  }
+  
+  .page-title {
+    width: 75%;
+  }
+
+  .language {
+    width: 10%;
+  }
+
+  .level {
+    width: 10%;
+  }
+}

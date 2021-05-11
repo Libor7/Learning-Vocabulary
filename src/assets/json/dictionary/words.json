@@ -1,0 +1,368 @@
+[
+  {
+    "sk": "a",
+    "en": "and",
+    "de": "und",
+    "level": 1
+  },
+  {
+    "sk": "jablko",
+    "en": "apple",
+    "de": "der Apfel",
+    "level": 1
+  },
+  {
+    "sk": "veľký",
+    "en": "big",
+    "de": "gross",
+    "level": 2
+  },
+  {
+    "sk": "byť",
+    "en": "be",
+    "de": "sein",
+    "level": 1
+  },
+  {
+    "sk": "on",
+    "en": "he",
+    "de": "er",
+    "level": 1
+  },
+  {
+    "sk": "čierny",
+    "en": "black",
+    "de": "schwarz",
+    "level": 1
+  },
+  {
+    "sk": "zaneprázdnený",
+    "en": "busy",
+    "de": "beschäftigt",
+    "level": 1
+  },
+  {
+    "sk": "ale",
+    "en": "but",
+    "de": "aber",
+    "level": 1
+  },
+  {
+    "sk": "klobúk",
+    "en": "hat",
+    "de": "der Hut",
+    "level": 1
+  },
+  {
+    "sk": "ako",
+    "en": "how",
+    "de": "wie",
+    "level": 1
+  },
+  {
+    "sk": "chorý",
+    "en": "ill",
+    "de": "krank",
+    "level": 1
+  },
+  {
+    "sk": "ráno",
+    "en": "morning",
+    "de": "der Morgen",
+    "level": 1
+  },
+  {
+    "sk": "môj",
+    "en": "my",
+    "de": "mein",
+    "level": 1
+  },
+  {
+    "sk": "meno",
+    "en": "name",
+    "de": "der Name",
+    "level": 1
+  },
+  {
+    "sk": "nový",
+    "en": "new",
+    "de": "neu",
+    "level": 1
+  },
+  {
+    "sk": "nie",
+    "en": "no",
+    "de": "nein",
+    "level": 1
+  },
+  {
+    "sk": "teraz",
+    "en": "now",
+    "de": "jetzt",
+    "level": 1
+  },
+  {
+    "sk": "kancelária",
+    "en": "office",
+    "de": "die Kanzlei",
+    "level": 1
+  },
+  {
+    "sk": "starý",
+    "en": "old",
+    "de": "alt",
+    "level": 1
+  },
+  {
+    "sk": "jeden",
+    "en": "one",
+    "de": "ein",
+    "level": 1
+  },
+  {
+    "sk": "pomaranč",
+    "en": "orange",
+    "de": "die Apfelsine",
+    "level": 1
+  },
+  {
+    "sk": "škola",
+    "en": "school",
+    "de": "die Schule",
+    "level": 1
+  },
+  {
+    "sk": "ona",
+    "en": "she",
+    "de": "sie",
+    "level": 1
+  },
+  {
+    "sk": "študent",
+    "en": "student",
+    "de": "der Student",
+    "level": 1
+  },
+  {
+    "sk": "učiteľ",
+    "en": "teacher",
+    "de": "der Lehrer",
+    "level": 1
+  },
+  {
+    "sk": "čo",
+    "en": "what",
+    "de": "was",
+    "level": 1
+  },
+  {
+    "sk": "kto",
+    "en": "who",
+    "de": "wer",
+    "level": 1
+  },
+  {
+    "sk": "áno",
+    "en": "yes",
+    "de": "ja",
+    "level": 1
+  },
+  {
+    "sk": "ja",
+    "en": "I",
+    "de": "ich",
+    "level": 1
+  },
+  {
+    "sk": "ty",
+    "en": "you",
+    "de": "du",
+    "level": 1
+  },
+  {
+    "sk": "tvoj",
+    "en": "your",
+    "de": "dein",
+    "level": 1
+  },
+  {
+    "sk": "slečna",
+    "en": "Miss",
+    "de": "das Fräulein",
+    "level": 1
+  },
+  {
+    "sk": "pán",
+    "en": "Mr",
+    "de": "der Herr",
+    "level": 1
+  },
+  {
+    "sk": "modrý",
+    "en": "blue",
+    "de": "blau",
+    "level": 2
+  },
+  {
+    "sk": "chlapec",
+    "en": "boy",
+    "de": "der Junge",
+    "level": 2
+  },
+  {
+    "sk": "hnedý",
+    "en": "brown",
+    "de": "braun",
+    "level": 2
+  },
+  {
+    "sk": "koberec",
+    "en": "carpet",
+    "de": "der Teppich",
+    "level": 2
+  },
+  {
+    "sk": "stolička",
+    "en": "chair",
+    "de": "der Stuhl",
+    "level": 2
+  },
+  {
+    "sk": "kreslo",
+    "en": "armchair",
+    "de": "der Sessel",
+    "level": 2
+  },
+  {
+    "sk": "tmavý",
+    "en": "dark",
+    "de": "dunkel",
+    "level": 2
+  },
+  {
+    "sk": "továreň",
+    "en": "factory",
+    "de": "die Fabrik",
+    "level": 2
+  },
+  {
+    "sk": "priateľ",
+    "en": "friend",
+    "de": "der Freund",
+    "level": 2
+  },
+  {
+    "sk": "zelený",
+    "en": "green",
+    "de": "grün",
+    "level": 2
+  },
+  {
+    "sk": "lampa",
+    "en": "lamp",
+    "de": "die Lampe",
+    "level": 2
+  },
+  {
+    "sk": "pekný",
+    "en": "nice",
+    "de": "schön",
+    "level": 2
+  },
+  {
+    "sk": "obraz",
+    "en": "picture",
+    "de": "das Bild",
+    "level": 2
+  },
+  {
+    "sk": "červený",
+    "en": "red",
+    "de": "rot",
+    "level": 2
+  },
+  {
+    "sk": "izba",
+    "en": "room",
+    "de": "das Zimmer",
+    "level": 2
+  },
+  {
+    "sk": "stôl",
+    "en": "table",
+    "de": "der Tisch",
+    "level": 2
+  },
+  {
+    "sk": "tri",
+    "en": "three",
+    "de": "drei",
+    "level": 2
+  },
+  {
+    "sk": "dva",
+    "en": "two",
+    "de": "zwei",
+    "level": 2
+  },
+  {
+    "sk": "my",
+    "en": "we",
+    "de": "wir",
+    "level": 2
+  },
+  {
+    "sk": "malý",
+    "en": "small",
+    "de": "klein",
+    "level": 2
+  },
+  {
+    "sk": "biely",
+    "en": "white",
+    "de": "weiss",
+    "level": 2
+  },
+  {
+    "sk": "okno",
+    "en": "window",
+    "de": "das Fenster",
+    "level": 2
+  },
+  {
+    "sk": "taška",
+    "en": "bag",
+    "de": "die Tasche",
+    "level": 3
+  },
+  {
+    "sk": "priniesť",
+    "en": "bring",
+    "de": "bringen",
+    "level": 3
+  },
+  {
+    "sk": "brat",
+    "en": "brother",
+    "de": "der Bruder",
+    "level": 3
+  },
+  {
+    "sk": "auto",
+    "en": "car",
+    "de": "das Auto",
+    "level": 3
+  },
+  {
+    "sk": "kabát",
+    "en": "coat",
+    "de": "der Mantel",
+    "level": 3
+  },
+  {
+    "sk": "studený",
+    "en": "cold",
+    "de": "kalt",
+    "level": 3
+  }
+]

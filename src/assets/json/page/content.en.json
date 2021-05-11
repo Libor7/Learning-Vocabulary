@@ -1,0 +1,23 @@
+{
+  "application": {
+    "name": "Vocabulary"
+  },
+  "content": {
+    "country": "en",
+    "flag": "united-kingdom.png",
+    "text_content": {
+      "introduction": "Choose country of your origin, the language you want to improve and selet the lesson you want to practise the vocabulary from",
+      "notice_german": "Application doesn't recognize oe, ae, ue. Instead of ö, ä, ü use o, a, u.",
+      "language": "language",
+      "confirm_button": "Translate",
+      "lesson": "lesson",
+      "modal": {
+        "right": "is correct",
+        "wrong": "is incorrect",
+        "right_answer": "The right answer is"
+      }
+    },
+    "languages": [{"lang": "German", "shortcut": "de"}, {"lang": "Slovak", "shortcut": "sk"}],
+    "countries": ["de", "en", "sk"]
+  }
+}

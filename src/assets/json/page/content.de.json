@@ -1,0 +1,22 @@
+{
+  "application": {
+    "name": "Vokabeln"
+  },
+  "content": {
+    "country": "de",
+    "flag": "germany.png",
+    "text_content": {
+      "introduction": "Wählen Sie ihr Stammland, die Sprache, in der Sie sich verbessern möchten und die Lektion, aus der Sie die Vokabeln üben wollen",
+      "language": "Sprache",
+      "confirm_button": "Übersetzen",
+      "lesson": "Lektion",
+      "modal": {
+        "right": "ist richtig",
+        "wrong": "ist falsch",
+        "right_answer": "Die richtige Antwort ist"
+      }
+    },
+    "languages": [{"lang": "Englisch", "shortcut": "en"}, {"lang": "Slowakisch", "shortcut": "sk"}],
+    "countries": ["de", "en", "sk"]
+  }
+}
